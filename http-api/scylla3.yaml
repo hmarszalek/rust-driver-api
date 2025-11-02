@@ -1,0 +1,7 @@
+client_encryption_options:
+    enabled: true
+    certificate: /etc/scylla/certs/scylla3.crt
+    keyfile: /etc/scylla/certs/scylla3.key
+    truststore: /etc/scylla/certs/ca.crt
+    require_client_auth: false
+    priority_string: "SECURE128:-VERS-TLS1.0:-VERS-TLS1.1"
